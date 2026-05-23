@@ -6,13 +6,15 @@ include = [
   "Cargo.toml",
   "Cargo.lock",
   "sifr.toml",
-  "sifr/**/*.sifr",
+  "src/**/*.sifr",
   "src/lib.rs",
   "README.md",
   "LICENSE"
 ]
 
+# sifr-managed
 [package.metadata.sifr]
 manifest = "sifr.toml"
+# end sifr-managed
 
 [workspace]
